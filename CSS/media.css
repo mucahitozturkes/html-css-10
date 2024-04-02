@@ -1,0 +1,43 @@
+@media (min-width: 1046px) {
+    .main {
+        display: grid;
+        place-items: center;
+    }
+
+    .header {
+        max-width: 540px;
+        
+    }
+
+    .header1, .header2 {
+        font-size: 2rem;
+    }
+    
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blue {
+        margin-left: 2rem;
+    }
+
+    .cyan {
+        margin-right: 2rem;
+    }
+
+    .cyan,
+    .blue,
+    .red,
+    .orange {
+       height: 250px;
+       max-width: 350px;
+      
+    }
+
+    .images {
+        text-align: right;
+        margin-top: 50px;
+    }
+}

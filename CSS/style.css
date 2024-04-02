@@ -1,0 +1,80 @@
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-family: Poppins;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: var(--VeryLightGray);
+    margin: 1rem;
+
+}
+
+.cyan,
+.blue,
+.red,
+.orange {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0px 2px 20px rgba(81, 89, 182, 0.333);
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    border-top: 4px solid red;
+    width: 100%;
+}
+
+.stack-red-orange {
+    width: 100%;
+}
+
+.cyan {
+    border-top: 4px solid var(--Cyan);
+}
+
+.red {
+    border-top: 4px solid var(--Red);
+}
+
+.orange {
+    border-top: 4px solid var(--Orange);
+}
+
+.blue {
+    border-top: 4px solid var(--Blue);
+}
+
+.images {
+    text-align: right;
+    margin-bottom: -14px;
+}
+
+h3 {
+    padding-bottom: 0.2rem;
+}
+
+h4 {
+    line-height: 2;
+}
+
+.header {
+    padding-bottom: 5rem;
+}
